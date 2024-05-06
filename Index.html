@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/69ba22e354.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css">
     <title>Rejuvenage</title>
 </head>
 <body>
 <header>
 <div>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg ">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <img src="Imgs/image 1.jpg">
@@ -39,7 +40,7 @@
               </li>
             </ul>
             <form class="d-flex" role="Contact">
-              <button class="btn btn-outline-success" type="submit">Contactanos</button>
+              <button class="btn btn-outline-danger" type="submit">Contactanos</button>
             </form>
           </div>
         </div>
@@ -48,87 +49,95 @@
 </div>
 </header>
 <main>
-  <div class="container text-center">
-    <div class="row">
-    
-        <div class="col aling-self-star">
-          <h1>Ahora Rejuvenecer no es imposible.....</h1>
-          <p class="lead">Alcansa tu objetivo estetico con la asesoria de profesionales altamente entrenados y calificados</p>
-          <p class="lead"><a href="#" class="btn btn-lg btn-light fw-bold border-white bg-white">Conoce más</a></p>
-        </div>
-          <div class="col aling-self-end">
-            <p>
-              <img src="Imgs/image 2.jpg" class="img-fluid primera">
-            </p>
+    <section id="principal">
+    <div class="container text-center">
+      <div class="row">
+      
+          <div class="col aling-self-star" id="primera">
+            <h1>Ahora Rejuvenecer no es imposible.....</h1>
+            <p class="lead">Alcansa tu objetivo estetico con la asesoria de profesionales altamente entrenados y calificados</p>
+            <p class="lead"><a href="#" class="btn btn-lg btn-light fw-bold border-white bg-white">Conoce más</a></p>
           </div>
-    
+            <div class="col aling-self-end" id="segunda">
+              <p>
+                <img src="Imgs/image 2.jpg" class="img-fluid primera">
+              </p>
+            </div>
+      
+      </div>
     </div>
-  </div>
+  </section>
 </main>
 <products>
-  <h1 class="text-center">Nuestros Procedimientos</h1>
+    <div>
+    <h1 class="text-center" id="Productos">Nuestros Procedimientos</h1>
+    </div>
   <div class="container text-center">
     <div class="row align-items-center">
-      <div class="col">
+      <div class="col centro">
         <img src="Imgs/image 3.jpg" class="img-fluid segunda">
-        <h1>Botox</h1>
+        <h2>Botox</h2>
         <p> El bótox es una toxina que se utiliza en inyecciones para impedir temporalmente el movimiento de un músculo. Se utiliza para suavizar arrugas en la cara, especialmente en el entrecejo, frente y patas de gallo.</p>
       </div>
-      <div class="col">
+      <div class="col centro dos">
         <img src="Imgs/image 4.jpg" class="img-fluid tercera">
         <h2>Hilos Tensores</h2>
         <p>Los hilos tensores son una técnica de medicina estética que consiste en inyectar finos hilos de material reabsorbible y biocompatible bajo la piel del rostro para rejuvenecer la piel desde adentro. </p>
       </div>
-      <div class="col">
+      <div class="col centro">
         <img src="Imgs/image 5.jpg" class="img-fluid cuarta">
-        <h3>Ácido hialurónico</h3>
+        <h2>Ácido hialurónico</h2>
         <p>El ácido hialurónico se usa en estética facial para disminuir las arrugas y los signos del envejecimiento. También se puede usar para aumentar el volumen de los labios, pómulos y mentón para mejorar la armonía facial. </p>
       </div>
     </div>
   </div>
 
 
-<section>
-      
-  <div class="container overflow-hidden text-center">
-    <div class="row align-items-center gy-5">
-      <div class="col">
-        <img src="Imgs/image 6.jpg" class="img-fluid quinta">
-      </div>
-      <div class="col">
-        <p class="lead">Agenda tu hora de asesoría y podremos orientarte en tu objetivo</p>
-        <p class="lead"><a href="#" class="btn btn-lg btn-light fw-bold border-white bg-white">Agenda Ahora</a></p>
+  <section class="fin">
+        
+    <div class="container overflow-hidden text-center">
+      <div class="row align-items-center">
+        <div class="col fin">
+          <img src="Imgs/image 6.jpg" class="img-fluid quinta">
+        </div>
+        <div class="col fin">
+          <p class="lead fin">Agenda tu hora de asesoría y podremos orientarte en tu objetivo</p>
+          <p class="lead"><a href="#" class="btn btn-lg btn-light fw-bold border-white bg-white">Agenda Ahora</a></p>
+        </div>
       </div>
     </div>
-  </div>
 
-  </section>
+    </section>
 </products>
 <footer>
   <div class="container text-center">
     <div class="row align-items-start">
       <div class="col">
+        <h3>Clinica Rejuvenage</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum provident dolor quo dolores in tenetur vero, iusto dolorem dolorum quas magni asperiores nihil culpa. Voluptatem sed ipsam a quo consectetur.</p>
+      </div>
+      <div class="col pie">
         <p>Nuestras RRSS</p>
         <ul>
-        <li>Facebook</li>
-        <li>Instagram</li>
-        <li>Twitter</li>
+        <a href="#"class="fa-brands fa-facebook">Facebook</a>
+        <a href="#"class="fa-brands fa-instagram">Instagram</a>
+        <a href="#"class="fa-brands fa-twitter">Twitter</a>
         </ul>
       </div>
-      <div class="col">
+      <div class="col pie">
         <p>Procedimientos</p>
         <ul>
-        <li>Botox</li>
-        <li>Hilos Tensores</li>
-        <li>Ácido hialurónico</li>
+        <a href="#">Botox</a>
+        <a href="#">Hilos Tensores</a>
+        <a href="#">Ácido hialurónico</a>
         </ul>
       </div>
-      <div class="col">
+      <div class="col pie">
         <p>Acerca de Nosotros</p>
         <ul>
-        <li>Contacto</li>
-        <li>Ubicación</li>
-        <li>Nuestros profesionales</li>
+        <a href="#">Contacto</a>
+        <a href="#">Ubicación</a>
+        <a href="#">Nuestros profesionales</a>
         </ul>
       </div>
     </div>
