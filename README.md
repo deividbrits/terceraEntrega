@@ -22,4 +22,4 @@ Para la maqueta o esquema de papel digital se utilizó la herramienta Figma seg�
 
 ## Paleta de Colores. 
 Para la selección de colores se utilizó la siguiente paleta de colores. 
-![añado Paleta de colores](https://github.com/deividbrits/terceraEntrega/tree/master/Imgs/paleta de colores.png).
+![añado Paleta de colores](https://github.com/deividbrits/terceraEntrega/blob/master/Imgs/paleta%20de%20colores.png).
