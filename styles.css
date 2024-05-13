@@ -71,6 +71,10 @@ a:hover {
     justify-content: center;
     
 }
+.marca {
+    margin-top: -12px ;
+    margin-bottom: -12px;
+}
 .fb {
     width: 15px;
     height: 15px;
